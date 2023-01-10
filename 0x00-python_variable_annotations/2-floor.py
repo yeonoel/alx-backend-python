@@ -2,7 +2,7 @@
 """Basic annotations - floor."""
 
 
-def floot(n: float) -> int:
+def floor(n: float) -> int:
     """This function takes a float n as argument
        and returns the floor of the float.
     """
