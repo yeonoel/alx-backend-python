@@ -5,7 +5,7 @@
 from typing import Tuple
 
 
-def to_kv(k: str, v: int | float) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """This function takes a string k and an
        int OR float v as arguments and returns a tuple.
     """
