@@ -21,4 +21,4 @@ async def task_wait_n(n: int, max_delay: int = 10) -> List[float]:
     for rand in desc:
         await rand
 
-    return
+    return arr
